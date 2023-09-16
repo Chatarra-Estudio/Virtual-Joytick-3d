@@ -10,13 +10,13 @@ Godot Engine: https://godotengine.org
 
 ### PREVIEWS:
 
-<img src="[previews/preview1.png](https://raw.githubusercontent.com/MarcoFazioRandom/Virtual-Joystick-Godot/840bf4c5b0b7df277ee58192abd9306d2e99a4f8/previews/preview1.png)" width="500">
+<img src="https://raw.githubusercontent.com/MarcoFazioRandom/Virtual-Joystick-Godot/840bf4c5b0b7df277ee58192abd9306d2e99a4f8/previews/preview1.png" width="500">
 
 Easy to setup:  
-<img src="previews/preview2.png" width="300">
+<img src="https://raw.githubusercontent.com/MarcoFazioRandom/Virtual-Joystick-Godot/840bf4c5b0b7df277ee58192abd9306d2e99a4f8/previews/preview2.png" width="300">
 
 Easy to use:  
-<img src="previews/preview3.png" width="500">
+<img src="https://raw.githubusercontent.com/MarcoFazioRandom/Virtual-Joystick-Godot/840bf4c5b0b7df277ee58192abd9306d2e99a4f8/previews/preview2.png" width="500">
 
 ### OPTIONS:  
 
