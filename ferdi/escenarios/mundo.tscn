@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://escenarios/suelo.tscn" type="PackedScene" id=1]
+[ext_resource path="res://caracter/Caracter.tscn" type="PackedScene" id=2]
+
+[node name="mundo" type="Spatial"]
+
+[node name="Caracter" parent="." instance=ExtResource( 2 )]
+
+[node name="suelo" parent="." instance=ExtResource( 1 )]
