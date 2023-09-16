@@ -1,22 +1,10 @@
 # Godot Virtual Joystick
 
-<img src="previews/icon.png" width="300">
-
 A simple virtual joystick for touchscreens, with useful options.
 
 GitHub Page: https://github.com/MarcoFazioRandom/Virtual-Joystick-Godot
 
 Godot Engine: https://godotengine.org
-
-### PREVIEWS:
-
-<img src="previews/preview1.png" width="500">
-
-Easy to setup:  
-<img src="previews/preview2.png" width="300">
-
-Easy to use:  
-<img src="previews/preview3.png" width="500">
 
 ### OPTIONS:  
 
