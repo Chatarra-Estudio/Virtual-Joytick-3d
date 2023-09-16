@@ -1,4 +1,9 @@
-# Godot Virtual Joystick
+# Godot controles 3d chatarreros + Virtual Joystick
+
+Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
+--------------------------------------------------------------------------------------------------
+
+## Godot Virtual Joystick
 
 A simple virtual joystick for touchscreens, with useful options.
 
