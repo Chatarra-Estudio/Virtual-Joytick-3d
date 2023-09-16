@@ -1,6 +1,14 @@
 # Godot controles 3d chatarreros + Virtual Joystick
 
 Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
+
+Virtual joystick for touchscreens, with useful options.
+
+<img src="https://raw.githubusercontent.com/Chatarra-Estudio/Virtual-Joytick-3d/586eb2ef595721dd4ea31b958722a5f79b96f149/ferdi/joystick3d.jpg">
+
+
+Godot Virtual Joystick
+Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
 --------------------------------------------------------------------------------------------------
 
 # Godot Virtual Joystick
