@@ -3,13 +3,25 @@
 Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
 --------------------------------------------------------------------------------------------------
 
-## Godot Virtual Joystick
+# Godot Virtual Joystick
+
+<img src="https://raw.githubusercontent.com/MarcoFazioRandom/Virtual-Joystick-Godot/840bf4c5b0b7df277ee58192abd9306d2e99a4f8/previews/icon.png" width="300">
 
 A simple virtual joystick for touchscreens, with useful options.
 
 GitHub Page: https://github.com/MarcoFazioRandom/Virtual-Joystick-Godot
 
 Godot Engine: https://godotengine.org
+
+### PREVIEWS:
+
+<img src="https://raw.githubusercontent.com/MarcoFazioRandom/Virtual-Joystick-Godot/840bf4c5b0b7df277ee58192abd9306d2e99a4f8/previews/preview1.png" width="500">
+
+Easy to setup:  
+<img src="https://raw.githubusercontent.com/MarcoFazioRandom/Virtual-Joystick-Godot/840bf4c5b0b7df277ee58192abd9306d2e99a4f8/previews/preview2.png" width="300">
+
+Easy to use:  
+<img src="https://raw.githubusercontent.com/MarcoFazioRandom/Virtual-Joystick-Godot/840bf4c5b0b7df277ee58192abd9306d2e99a4f8/previews/preview2.png" width="500">
 
 ### OPTIONS:  
 
