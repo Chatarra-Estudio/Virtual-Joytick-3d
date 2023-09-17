@@ -10,6 +10,8 @@ https://josegarciamoreno.github.io/Chatarra-Estudio/landing2023/ferdi/3d.html
 
 Pruebas de 3d
 
+https://3d.csm.ai/login
+
 https://josegarciamoreno.github.io/Chatarra-Estudio/landing2023/sensor/acelera.html (Probando giroscopio: no va)
 
 https://josegarciamoreno.github.io/Chatarra-Estudio/landing2023/submarino/amarillo.html Interfaz chatarrero para movil
