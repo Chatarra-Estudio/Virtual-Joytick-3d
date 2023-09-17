@@ -32,7 +32,7 @@ func _on_TimerGO_timeout():
 		#get_node("TimerGO")
 	
 	else  :
-		get_tree().reload_current_scene()
+		print(get_tree().reload_current_scene())
 		
 		
 	
