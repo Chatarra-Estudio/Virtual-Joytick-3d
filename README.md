@@ -4,6 +4,11 @@ Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar
 
 El germen del proyecto de producir unos controles 3d surgió de un intento, no satisfactorio, para una Game Jam de pocas horas donde. El objetivo de nuestro proyecto era hacer unos controles básicos para un submarino. Finalmente tenemos una plantilla con joytick virtual t movimiento en 3d: 
 
+Juego game jam 16 /09/ 2023
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/772b82ce9b34c68218be91a7bf15ba3dbd3d5f37
+
+Palntilla orriginal solo movimiento con joystick virtual, para que vaya bien en movil
+
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/437d8bb987b4bb11bce31ce0715674a3b5abe02a
 https://josegarciamoreno.github.io/Chatarra-Estudio/landing2023/ferdi/3d.html
 
