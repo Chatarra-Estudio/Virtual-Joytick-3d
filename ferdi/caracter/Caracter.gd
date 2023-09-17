@@ -1,8 +1,6 @@
 extends KinematicBody
 
-
-
-export var gravity = Vector3.DOWN * 10
+export var gravity = Vector3.DOWN * 20
 export var speed = 45
 export var rot_speed = 0.9
 onready var escenaontrol = get_node("Control/Virtual joystick")
