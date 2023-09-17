@@ -29,7 +29,7 @@ func _on_TimerGO_timeout():
 		go = true
 		tiempo -=1
 		get_node("hud/Label").set_text("Game Over")
-		get_node("TimerGO")
+		#get_node("TimerGO")
 	
 	else  :
 		get_tree().reload_current_scene()
