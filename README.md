@@ -20,10 +20,54 @@ https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/0656a09608d4a9f2c39f
 
 
 
+
+
+
+
 Plantilla proyecto editable - Juego game jam 16 /09/ 2023: Call of Ferdi 
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/772b82ce9b34c68218be91a7bf15ba3dbd3d5f37
 
+----------------------------------------------------------------------------------------------------------
+
+# Truck Town
+
+This is a demo implementing different types of trucks of
+varying complexity using vehicle physics.
+
+Controls:
+
+- <kbd>Up Arrow</kbd>, <kbd>W</kbd>, <kbd>Gamepad Right Trigger</kbd>, <kbd>Gamepad A/Cross</kbd>: Accelerate
+- <kbd>Down Arrow</kbd>, <kbd>S</kbd>, <kbd>Gamepad Left Trigger</kbd>, <kbd>Gamepad B/Circle</kbd> : Brake
+- <kbd>Left Arrow</kbd>, <kbd>Gamepad Left Stick</kbd>: Steer left
+- <kbd>Right Arrow</kbd>, <kbd>Gamepad Left Stick</kbd>: Steer right
+- <kbd>U</kbd>, <kbd>Gamepad Select</kbd>, left-click speedometer: Change speedometer unit (m/s, km/h, mph)
+- <kbd>C</kbd>, <kbd>Gamepad Y/Triangle</kbd>: Change camera (exterior, interior, top-down)
+- <kbd>Escape</kbd>, <kbd>Gamepad D-Pad Up</kbd>: Go back to menu (press again to exit)
+
+Language: GDScript
+
+Renderer: Forward Plus
+
+Check out this demo on the asset library: https://godotengine.org/asset-library/asset/524
+
+## How does it work?
+
+The base vehicle uses a
+[`VehicleBody`](https://docs.godotengine.org/en/latest/classes/class_vehiclebody.html)
+node. The trailer truck is tied together using a
+[`ConeJointTwist`](https://docs.godotengine.org/en/latest/classes/class_conetwistjoint.html)
+node, and the tow truck is tried together using a chain made of
+[`RigidBody`](https://docs.godotengine.org/en/latest/classes/class_rigidbody.html)
+nodes which are pinned together using
+[`PinJoint`](https://docs.godotengine.org/en/latest/classes/class_pinjoint.html) nodes.
+
+## Screenshots
+
+![Screenshot]([screenshots/truck_town.webp](https://raw.githubusercontent.com/Chatarra-Estudio/godot-demo-projects/master/3d/truck_town/screenshots/truck_town.webp))
+
+
+-------------------------------------------------------------------------------------------------------
 
 
 El germen del proyecto de producir unos controles 3d surgió de un intento, no satisfactorio, para una Game Jam de pocas horas donde. El objetivo de nuestro proyecto era hacer unos controles básicos para un submarino. Finalmente tenemos una plantilla con joytick virtual t movimiento en 3d:
