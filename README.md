@@ -6,14 +6,19 @@ Añadimos mecánicas de coche como asset de coche:
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/0656a09608d4a9f2c39f824465db8e0ef31b5362
 
-Modelo chatarrero del clio de regalo:
+Modelo chatarrero de terreno básico de regalo:
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/0656a09608d4a9f2c39f824465db8e0ef31b5362/modelos/terreno10x10.blend
 
 <img src="https://raw.githubusercontent.com/JoseGarciaMoreno/Chatarra-Estudio/main/landing2023/coche/godot-car-4.jpg" width="300">
 
+Modelo chatarrero del clio de regalo:
 
- 
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/0656a09608d4a9f2c39f824465db8e0ef31b5362/modelos/clio_tuning.blend
+
+<img src="https://raw.githubusercontent.com/JoseGarciaMoreno/Chatarra-Estudio/main/landing2023/coche/godot-car-4.jpg" width="300">
+
+
 
 Plantilla proyecto editable - Juego game jam 16 /09/ 2023: Call of Ferdi 
 
