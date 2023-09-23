@@ -64,8 +64,7 @@ nodes which are pinned together using
 
 ## Screenshots
 
-![Screenshot]([screenshots/truck_town.webp](https://raw.githubusercontent.com/Chatarra-Estudio/godot-demo-projects/master/3d/truck_town/screenshots/truck_town.webp))
-
+<img src="https://raw.githubusercontent.com/godotengine/godot-demo-projects/ad2cdfebd46c1e50dac5b14134fbadbef15076e8/3d/truck_town/screenshots/truck_town.webp" width="700">
 
 -------------------------------------------------------------------------------------------------------
 
