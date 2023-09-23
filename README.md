@@ -1,11 +1,17 @@
 # Godot controles 3d chatarreros + Virtual Joystick
 
 Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
+
+Añadimos mecánicas de coche como asset de coche:
+
+https://github.com/CycloPi/Crazy_Tron_Car_V.1.0/tree/39749e49f50ee1744a7ce45d84b24eb27f57edb3/Crazy_Tron_Car/Coches/Coche.003clio
  
 
 Plantilla proyecto editable - Juego game jam 16 /09/ 2023: Call of Ferdi 
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/772b82ce9b34c68218be91a7bf15ba3dbd3d5f37
+
+
 
 El germen del proyecto de producir unos controles 3d surgió de un intento, no satisfactorio, para una Game Jam de pocas horas donde. El objetivo de nuestro proyecto era hacer unos controles básicos para un submarino. Finalmente tenemos una plantilla con joytick virtual t movimiento en 3d:
 
