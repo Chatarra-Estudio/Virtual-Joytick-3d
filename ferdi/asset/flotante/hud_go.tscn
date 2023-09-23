@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://hud_go.gd" type="Script" id=1]
+[ext_resource path="res://asset/flotante/hud_go.gd" type="Script" id=1]
 [ext_resource path="res://asset/tempo_go/tempoGO.tscn" type="PackedScene" id=2]
 
 [node name="hud_go" type="Node2D"]
