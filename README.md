@@ -10,7 +10,7 @@ Modelo chatarrero de terreno básico de regalo:
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/0656a09608d4a9f2c39f824465db8e0ef31b5362/modelos/terreno10x10.blend
 
-<img src="https://raw.githubusercontent.com/JoseGarciaMoreno/Chatarra-Estudio/main/landing2023/coche/godot-car-4.jpg" width="300">
+<img src="https://raw.githubusercontent.com/JoseGarciaMoreno/Chatarra-Estudio/main/landing2023/ferdi/terrenobasico.png" width="300">
 
 Modelo chatarrero del clio de regalo:
 
