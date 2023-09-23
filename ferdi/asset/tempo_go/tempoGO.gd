@@ -1,6 +1,6 @@
 extends Node2D
 # Declare member variables here. Examples:
-var tiempo : int = 20
+var tiempo : int = 25
 var go = false
 # var b = "text"
 
@@ -18,18 +18,20 @@ func _ready():
 
 
 func _on_TimerGO_timeout():
-	if tiempo > 1  :
+	if tiempo > 1 and !go :
 		tiempo -=1
 		get_node("hud/Label").set_text(str(tiempo))
-		
 		get_node("TimerGO").start()
 	
-	elif tiempo == 1  :
-		print("game over")
+	elif ((tiempo == 1)):
 		go = true
 		tiempo -=1
-		get_node("hud/Label").set_text("Game Over")
+		get_node("hud/Label").set_text("Game Over por tiempo")
 		#get_node("TimerGO")
+	elif (go):
+		print("estaba muerto de parranda")
+#		get_node("hud/Label").set_text("Game Over ")
+		print(get_tree().reload_current_scene())
 	
 	else  :
 		print(get_tree().reload_current_scene())
