@@ -10,6 +10,8 @@ Modelo chatarrero del clio de regalo:
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/0656a09608d4a9f2c39f824465db8e0ef31b5362/modelos/terreno10x10.blend
 
+<img src="[https://raw.githubusercontent.com/MarcoFazioRandom/Virtual-Joystick-Godot/840bf4c5b0b7df277ee58192abd9306d2e99a4f8/previews/icon.png](https://raw.githubusercontent.com/JoseGarciaMoreno/Chatarra-Estudio/main/landing2023/coche/godot-car-4.jpg)" width="300">
+
 
  
 
