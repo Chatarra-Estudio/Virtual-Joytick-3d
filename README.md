@@ -4,7 +4,13 @@ Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar
 
 Añadimos mecánicas de coche como asset de coche:
 
-https://github.com/CycloPi/Crazy_Tron_Car_V.1.0/tree/39749e49f50ee1744a7ce45d84b24eb27f57edb3/Crazy_Tron_Car/Coches/Coche.003clio
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/0656a09608d4a9f2c39f824465db8e0ef31b5362
+
+Modelo chatarrero del clio de regalo:
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/0656a09608d4a9f2c39f824465db8e0ef31b5362/modelos/terreno10x10.blend
+
+
  
 
 Plantilla proyecto editable - Juego game jam 16 /09/ 2023: Call of Ferdi 
