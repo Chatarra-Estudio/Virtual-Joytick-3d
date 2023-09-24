@@ -4,7 +4,7 @@
 [ext_resource path="res://asset/flotante/flotante.gd" type="Script" id=2]
 [ext_resource path="res://asset/bala/fusil.tscn" type="PackedScene" id=3]
 [ext_resource path="res://asset/flotante/hud_go.tscn" type="PackedScene" id=4]
-[ext_resource path="res://asset/flotante/hud_go.gd" type="Script" id=5]
+[ext_resource path="res://asset/flotante/leon5.png" type="Texture" id=5]
 
 [sub_resource type="BoxShape" id=1]
 
@@ -15,12 +15,18 @@ script = ExtResource( 2 )
 shape = SubResource( 1 )
 
 [node name="CSGBox" type="CSGBox" parent="CollisionShape"]
+visible = false
 
 [node name="CSGBox2" type="CSGBox" parent="CollisionShape"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.118858, -1.17242 )
+visible = false
 width = 0.751
 height = 0.79
 depth = 2.926
+
+[node name="Sprite3D" type="Sprite3D" parent="CollisionShape"]
+transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 1, 0, 0, 0 )
+texture = ExtResource( 5 )
 
 [node name="Control" type="Control" parent="."]
 anchor_right = 0.993
@@ -41,4 +47,3 @@ transform = Transform( 1, 0, 0, 0, 0.845113, 0.534588, 0, -0.534588, 0.845113, 0
 transform = Transform( 0.067998, 0, 0.997685, 0, 1, 0, -0.997685, 0, 0.067998, 0, 0.481611, -3.41195 )
 
 [node name="hud_go" parent="." instance=ExtResource( 4 )]
-script = ExtResource( 5 )
