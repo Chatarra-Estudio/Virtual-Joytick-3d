@@ -13,6 +13,12 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
+# recuerda que debes poner los siquientes nodos en l escena mundo:
+# mundo
+#	tempoGO
+#	CarBase
+#	escenario
+# ********también puedes mirar el orden con el get_child
 func _process(_delta):
 	if (get_parent().get_child(1).get_child(0).global_transform.origin.y < -5.2) and (!bool(get_parent().get_child(0).go)):
 		print(get_parent().get_child(0).get_child(1).get_child(0).set_text("game over\n"+ "tiempo restante: "+ str(get_parent().get_child(0).tiempo) ))
