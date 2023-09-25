@@ -1,7 +1,7 @@
 extends VehicleBody
 
 
-const STEER_SPEED = 1.5
+const STEER_SPEED = 1.2
 const STEER_LIMIT = 0.4
 
 export var engine_force_value = 40
@@ -28,7 +28,8 @@ func _physics_process(delta):
 	var speed = linear_velocity.length()
 	if speed < 5.0 and speed != 0:
 #		print(speed)
-		engine_force = clamp(engine_force_value * 5 / speed, 0, 100)
+		engine_force = clamp(engine_force_value * 3 / speed, 0, 100)
+#		engine_force = clamp(engine_force_value * 5 / speed, 0, 100)
 	else:
 		engine_force = engine_force_value
 

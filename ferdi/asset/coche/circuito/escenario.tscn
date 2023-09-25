@@ -1,0 +1,175 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://asset/coche/circuito/circuito0.tscn" type="PackedScene" id=1]
+[ext_resource path="res://asset/coche/circuito/circuito.png" type="Texture" id=2]
+[ext_resource path="res://asset/coche/circuito/escenario.gd" type="Script" id=3]
+[ext_resource path="res://asset/coche/Materials/door.tres" type="Material" id=4]
+[ext_resource path="res://asset/bala/win.png" type="Texture" id=5]
+[ext_resource path="res://asset/coche/Materials/roof2.tres" type="Material" id=6]
+[ext_resource path="res://asset/coche/circuito/cactus.tscn" type="PackedScene" id=7]
+[ext_resource path="res://asset/coche/circuito/avion.tscn" type="PackedScene" id=8]
+[ext_resource path="res://asset/coche/circuito/camion.tscn" type="PackedScene" id=9]
+[ext_resource path="res://asset/coche/circuito/moto.tscn" type="PackedScene" id=10]
+[ext_resource path="res://asset/coche/circuito/arbol01_nu.tscn" type="PackedScene" id=11]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 0.214299, 0.242956, 0.339854 )
+
+[node name="escenario" type="Spatial"]
+script = ExtResource( 3 )
+
+[node name="circuito0" parent="." instance=ExtResource( 1 )]
+transform = Transform( 22.6097, 0, -26.7171, 0, 35, 0, 26.7171, 0, 22.6097, -42.1864, -5.06535, 0 )
+
+[node name="fondo" type="Sprite3D" parent="."]
+transform = Transform( 21.9963, 26.6887, 3.33314e-08, 0, -1.5299e-06, 1, 25.9261, -22.6432, -2.82791e-08, 89.9634, -2.35102, 9.66724 )
+texture = ExtResource( 2 )
+
+[node name="potencia" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 118.447, -0.834906, -9.25715 )
+
+[node name="CSGBox" type="CSGBox" parent="potencia"]
+transform = Transform( 1.82596, 0, 0, 0, 1, 0, 0, 0, 1.82596, 0, 0, 0 )
+visible = false
+width = 3.95851
+
+[node name="Area" type="Area" parent="potencia/CSGBox"]
+transform = Transform( 9.26259, 0, 0, 0, 5.23828, 0, 0, 0, 4.05259, 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="potencia/CSGBox/Area"]
+transform = Transform( 1, 0, 0, 0, 0.647591, 0, 0, 0, 1, 0, 0, 0 )
+shape = SubResource( 1 )
+
+[node name="CSGBox2" type="CSGBox" parent="potencia"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.60741, 0.715033, 0 )
+material_override = ExtResource( 4 )
+height = 3.7652
+
+[node name="CSGBox3" type="CSGBox" parent="potencia"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.80114, 0.715033, 0 )
+material_override = ExtResource( 4 )
+height = 3.7652
+
+[node name="CSGBox4" type="CSGBox" parent="potencia"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0630536, 3.17025, 0 )
+material_override = ExtResource( 4 )
+width = 14.4771
+height = 1.22361
+
+[node name="potencia2" type="Spatial" parent="."]
+transform = Transform( 0.636307, 0, 0.771436, 0, 1, 0, -0.771436, 0, 0.636307, 94.8735, -0.908757, 71.4384 )
+
+[node name="CSGBox" type="CSGBox" parent="potencia2"]
+transform = Transform( 1.82596, 0, 0, 0, 1, 0, 0, 0, 1.82596, 0, 0, 0 )
+visible = false
+width = 3.95851
+
+[node name="Area" type="Area" parent="potencia2/CSGBox"]
+transform = Transform( 9.26259, 0, -1.19209e-07, 0, 5.23828, 0, 0, 0, 4.05259, 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="potencia2/CSGBox/Area"]
+transform = Transform( 1, 0, 0, 0, 0.647591, 0, 0, 0, 1, 0, 0, 0 )
+shape = SubResource( 1 )
+
+[node name="CSGBox2" type="CSGBox" parent="potencia2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.60741, 0.715033, 0 )
+material_override = ExtResource( 4 )
+height = 3.7652
+
+[node name="CSGBox3" type="CSGBox" parent="potencia2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.80114, 0.715033, 0 )
+material_override = ExtResource( 4 )
+height = 3.7652
+
+[node name="CSGBox4" type="CSGBox" parent="potencia2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0630536, 3.17025, 0 )
+material_override = ExtResource( 4 )
+width = 14.4771
+height = 1.22361
+
+[node name="potenciaMet" type="Spatial" parent="."]
+transform = Transform( 0.636307, 0, 0.771436, 0, 1, 0, -0.771436, 0, 0.636307, 52.5055, -0.87396, 2.48665 )
+
+[node name="CSGBox" type="CSGBox" parent="potenciaMet"]
+transform = Transform( 1.82596, 0, 0, 0, 1, 0, 0, 0, 1.82596, 0, 0, 0 )
+visible = false
+width = 3.95851
+
+[node name="AreaMEta" type="Area" parent="potenciaMet/CSGBox"]
+transform = Transform( 9.26259, 0, -1.19209e-07, 0, 5.23828, 0, 0, 0, 4.05259, 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="potenciaMet/CSGBox/AreaMEta"]
+transform = Transform( 1, 0, 0, 0, 0.647591, 0, 0, 0, 1, 0, 0, 0 )
+shape = SubResource( 1 )
+
+[node name="CSGBox2" type="CSGBox" parent="potenciaMet"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.60741, 0.715033, 0 )
+material_override = ExtResource( 4 )
+height = 3.7652
+
+[node name="CSGBox3" type="CSGBox" parent="potenciaMet"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.80114, 0.715033, 0 )
+material_override = ExtResource( 4 )
+height = 3.7652
+
+[node name="CSGBox4" type="CSGBox" parent="potenciaMet"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0630536, 3.17025, 0 )
+material_override = ExtResource( 6 )
+width = 14.4771
+height = 1.22361
+
+[node name="Sprite" type="Sprite" parent="potenciaMet"]
+position = Vector2( 260, 170 )
+texture = ExtResource( 5 )
+centered = false
+
+[node name="atrezo" type="Spatial" parent="."]
+
+[node name="cactus" parent="atrezo" instance=ExtResource( 7 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 57.0142, -2.32209, 80.6009 )
+
+[node name="cactus2" parent="atrezo" instance=ExtResource( 7 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 88.6072, -3.10149, 86.3929 )
+
+[node name="cactus3" parent="atrezo" instance=ExtResource( 7 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 82.9168, -2.37119, 35.4802 )
+
+[node name="cactus4" parent="atrezo" instance=ExtResource( 7 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 114.51, -1.89253, 41.2722 )
+
+[node name="avion" parent="atrezo" instance=ExtResource( 8 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 31.352, 0, 54.5545 )
+
+[node name="avion2" parent="atrezo" instance=ExtResource( 8 )]
+transform = Transform( 2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 39.2406, 0, 12.1106 )
+
+[node name="camion" parent="atrezo" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 54.6233, 0.589048, 61.8462 )
+
+[node name="camion2" parent="atrezo" instance=ExtResource( 9 )]
+transform = Transform( -0.998218, 0, -0.0596723, 0, 1, 0, 0.0596723, 0, -0.998218, 14.8972, 0.589048, 25.7316 )
+
+[node name="moto" parent="atrezo" instance=ExtResource( 10 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 78.3591, 0, 77.2608 )
+
+[node name="moto2" parent="atrezo" instance=ExtResource( 10 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 111.532, 0, 13.5482 )
+
+[node name="moto3" parent="atrezo" instance=ExtResource( 10 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 73.6115, 0, 35.217 )
+
+[node name="arbol01_nu" parent="atrezo" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.9226, -1.25585, 9.29086 )
+
+[node name="arbol01_nu2" parent="atrezo" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 75.251, -1.25585, 85.8468 )
+
+[node name="arbol01_nu3" parent="atrezo" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 92.437, -1.25585, 43.6629 )
+
+[node name="arbol01_nu4" parent="atrezo" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 66.3976, -1.25585, -7.37435 )
+
+[connection signal="body_entered" from="potencia/CSGBox/Area" to="." method="_on_Area_body_entered"]
+[connection signal="body_entered" from="potencia2/CSGBox/Area" to="." method="_on_Area_body_entered"]
+[connection signal="body_entered" from="potenciaMet/CSGBox/AreaMEta" to="." method="_on_AreaMEta_body_entered"]
