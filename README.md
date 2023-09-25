@@ -1,6 +1,15 @@
 # Godot controles 3d chatarreros + Virtual Joystick
 
+
 Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+Versión de Rally + modelos
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/00175acb1d1af539296e8ef6d70b24701a7864c3
 
 ---------------------------------------------------------------------------------------------------------
 Asset controles flotantes con Joystick
