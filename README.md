@@ -8,11 +8,9 @@ https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/2dc06e4c9deb1c66f06c
 
 https://chatarra-estudio.github.io/landing2023/septiembre/rojo.html
 
--Quitar todos los hijos de la escena mundo
-
--Incluir jugador submarino
-
-*Incluir terreno fondo
+- Quitar todos los hijos de la escena mundo
+- Incluir jugador submarino
+- Incluir terreno fondo
 
 *Poner hijos editables a la escena
 
