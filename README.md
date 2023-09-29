@@ -1,12 +1,8 @@
 # Godot controles 3d chatarreros + Virtual Joystick
 
-Revisión controles submarino modelos
-
-https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/a1c12a80378826fc2db0430aebbdd77d376d7f2e
-
 Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
 
-https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/a1c12a80378826fc2db0430aebbdd77d376d7f2e
+Revisión controles submarino modelos
 
 ---------------------------------------------------------------------------------------------------------
 
