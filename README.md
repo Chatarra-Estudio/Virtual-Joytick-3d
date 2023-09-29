@@ -11,10 +11,8 @@ https://chatarra-estudio.github.io/landing2023/septiembre/rojo.html
 - Quitar todos los hijos de la escena mundo
 - Incluir jugador submarino
 - Incluir terreno fondo
-
-*Poner hijos editables a la escena
-
-*Conectar nodo área  al scrip del jugador
+- Poner hijos editables a la escena
+- Conectar nodo área  al scrip del jugador
 
 ---------------------------------------------------------------------------------------------------------
 
