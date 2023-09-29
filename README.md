@@ -4,6 +4,13 @@
 Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
 
 
+
+---------------------------------------------------------------------------------------------------------
+
+Revisión controles submarino Jam Unity
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/410fe7dacc4edfcd5f04007bf1ab0a961b79f34a
+
 ---------------------------------------------------------------------------------------------------------
 
 
