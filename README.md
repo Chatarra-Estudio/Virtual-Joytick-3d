@@ -2,6 +2,9 @@
 
 Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
 
+
+---------------------------------------------------------------------------------------------------------
+
 Revisión controles submarino modelos
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/2dc06e4c9deb1c66f06ce63decfc21308e1bee38 
