@@ -4,6 +4,16 @@ Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar
 
 Revisión controles submarino modelos
 
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/2dc06e4c9deb1c66f06ce63decfc21308e1bee38 
+
+https://chatarra-estudio.github.io/landing2023/septiembre/rojo.html
+
+-Quitar todos los hijos de la escena mundo
+-Incluir jugador submarino
+*Incluir terreno fondo
+*Poner hijos editables a la escena
+*Conectar nodo área  al scrip del jugador
+
 ---------------------------------------------------------------------------------------------------------
 
 Controles submarino Jam Unity
