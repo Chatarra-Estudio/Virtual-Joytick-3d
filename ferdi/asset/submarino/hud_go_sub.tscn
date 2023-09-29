@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://asset/tempo_go/tempoGO.tscn" type="PackedScene" id=1]
+[ext_resource path="res://asset/submarino/hud_go_sub.gd" type="Script" id=2]
+
+[node name="hud_go_subma" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="tempoGO" parent="." instance=ExtResource( 1 )]

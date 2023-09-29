@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://escenarios/terreno10x10b.tscn" type="PackedScene" id=1]
+[ext_resource path="res://escenarios/suelo.tscn" type="PackedScene" id=2]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="terreno_fondo" type="Spatial"]
+
+[node name="terreno10x10b" type="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 8, 0, 0, 0, 2, 0, 0, 0, 8, 0, -4.99915, 0 )
+
+[node name="suelo" type="StaticBody" parent="." instance=ExtResource( 2 )]
+transform = Transform( 76.3778, 0, 0, 0, 1, 0, 0, 0, 53.235, 0, -6.60634, -1.98676 )
+
+[node name="win" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.02361, -25.9455 )
+
+[node name="CSGBox" type="CSGBox" parent="win"]
+
+[node name="Area" type="Area" parent="win"]
+
+[node name="CollisionShape" type="CollisionShape" parent="win/Area"]
+shape = SubResource( 1 )
