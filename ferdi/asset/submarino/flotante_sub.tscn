@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://joystick/virtual_joystick.tscn" type="PackedScene" id=1]
+[ext_resource path="res://asset/submarino/sub_blen2.tscn" type="PackedScene" id=2]
 [ext_resource path="res://asset/submarino/hud_go_sub.tscn" type="PackedScene" id=3]
 [ext_resource path="res://icon.png" type="Texture" id=4]
 [ext_resource path="res://asset/submarino/flotante_sub.gd" type="Script" id=5]
@@ -25,6 +26,7 @@ depth = 2.926
 
 [node name="Sprite3D" type="Sprite3D" parent="CollisionShape"]
 transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0 )
+visible = false
 texture = ExtResource( 4 )
 
 [node name="SpotLight" type="SpotLight" parent="CollisionShape"]
@@ -49,3 +51,8 @@ clampzone_size = 76.0
 transform = Transform( 1, 0, 0, 0, 0.845113, 0.534588, 0, -0.534588, 0.845113, 0, 4.03298, 3.5927 )
 
 [node name="hud_go_subma" parent="." instance=ExtResource( 3 )]
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+
+[node name="sub_blen2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.0132166, 0, -0.299709, -0.0792314, 0.289327, -0.00349396, 0.289046, 0.0793084, 0.0127464, 0, -0.598415, 0.169218 )

@@ -1,8 +1,8 @@
 extends KinematicBody
 
 export var gravity = Vector3.DOWN * 20
-export var speed = 45
-#export var speed = 8
+#export var speed = 45
+export var speed = 8
 export var rot_speed = 0.9
 onready var escenaontrol = get_node("Control/Virtual joystick")
 var velocity = Vector3.ZERO
@@ -33,11 +33,11 @@ func _physics_process(delta):
 
 func _on_Area_body_entered(_body):
 #	print(get_parent().get_child(1).get_node("hud_go_subma").get_node("tempoGO").go)
-#	cuidado con los nodos y el arbol de la escena mundo
+#	cuidado con los nodos y el arbol de la escena mundo. borrar todos hijos y poner:
 #	munndo
 #	- carac_SUB
 #	- terreno_fondo
-#	hay que poner hijos editables y conectar el área al script de caracter
+#	CUIDADO: hay que poner hijos editables y conectar el área al script de caracter
 	get_parent().get_child(0).get_node("hud_go_subma/tempoGO/hud/Label").set_text("win")
 	if (!get_parent().get_child(0).get_node("hud_go_subma/tempoGO").go):
 		get_parent().get_child(0).get_node("hud_go_subma/tempoGO/TimerGO").start(3)
