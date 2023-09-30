@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://asset/plataforma2d/pantallas/ladrillo1.png" type="Texture" id=1]
 [ext_resource path="res://asset/plataforma2d/pantallas/ladrillo2.png" type="Texture" id=2]
 [ext_resource path="res://asset/plataforma2d/pantallas/enemigos.tscn" type="PackedScene" id=3]
+[ext_resource path="res://asset/plataforma2d/pantallas/fondo1_515x300.png" type="Texture" id=4]
 
 [sub_resource type="OccluderPolygon2D" id=2]
 polygon = PoolVector2Array( 0, 32, 32, 32, 32, 0, 0, 0 )
@@ -77,6 +78,20 @@ points = PoolVector2Array( 32, 32, 0, 32, 0, 32, 32, 32 )
 1/z_index = 0
 
 [node name="pantalla1" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+scroll_limit_end = Vector2( 0, 300 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.75, 0.75 )
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxBackground/ParallaxLayer"]
+margin_left = -1000.0
+margin_right = 2000.0
+margin_bottom = 300.0
+rect_scale = Vector2( 2, 2 )
+texture = ExtResource( 4 )
+stretch_mode = 2
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 4 )
