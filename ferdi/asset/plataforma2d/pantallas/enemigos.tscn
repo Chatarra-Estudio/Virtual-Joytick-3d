@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://asset/plataforma2d/pantallas/enemigo.tscn" type="PackedScene" id=1]
+[ext_resource path="res://asset/plataforma2d/pantallas/enemigo.gd" type="Script" id=2]
+
+[node name="enemigos" type="Node"]
+
+[node name="enemigo" type="KinematicBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 678, 290 )
+script = ExtResource( 2 )
+
+[node name="enemigo3" type="KinematicBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 916, 125 )
+script = ExtResource( 2 )
+
+[node name="enemigo2" type="KinematicBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 318, 153 )
+script = ExtResource( 2 )
