@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://asset/plataforma2d/pantallas/enemigo.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 21, 17.5 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 20, 3 )
+
+[node name="enemigo" type="KinematicBody2D"]
+position = Vector2( 615, 293 )
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -1, -6 )
+shape = SubResource( 7 )
+
+[node name="iz" type="RayCast2D" parent="."]
+position = Vector2( -28, -10 )
+enabled = true
+
+[node name="de" type="RayCast2D" parent="."]
+position = Vector2( 26, -8 )
+enabled = true
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( -1, -27 )
+shape = SubResource( 8 )
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
