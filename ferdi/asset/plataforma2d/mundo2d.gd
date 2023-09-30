@@ -19,15 +19,18 @@ func _ready():
 func _process(_delta):
 #	print(get_node(en))
 #	print(get_child(0).position.y)
-	if cara.position.y > 500 && !get_node("tempoGO").go :
-		get_node("tempoGO").go = true
-		get_node("tempoGO/TimerGO").start(3)
-		get_node("tempoGO/hud/Label").set_text("Game Over por caida")
+	print(get_node("caracter2d/tempoGO"))
+	if cara.position.y > 500 && !get_node("caracter2d/tempoGO").go :
+		get_node("caracter2d/tempoGO").go = true
+		get_node("caracter2d/tempoGO/TimerGO").start(3)
+		get_node("caracter2d/tempoGO/hud/Label").set_text("Game Over por caida")
 #		print("ff")
 #		print(get_node("tempoGO").go)
-	if malos == 0 && !get_node("tempoGO").go :
-		get_node("tempoGO").go = true
-		get_node("tempoGO/TimerGO").start(3)
-		get_node("tempoGO/hud/Label").set_text(" win máquina")
-		print("win")
+#	print(get_node("caracter2d/"))
+	if malos == 0 && !get_node("caracter2d/tempoGO").go :
+		get_node("caracter2d/tempoGO").go = true
+		get_node("caracter2d/tempoGO/TimerGO").start(3)
+		get_node("caracter2d/tempoGO/hud/Label").set_text("Win: Máquina")
+#		get_node("tempoGO/hud/Label").set_text(" win máquina")
+#		print("win")
 	#	pass
