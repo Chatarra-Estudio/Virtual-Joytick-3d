@@ -1,6 +1,11 @@
 # Godot controles 3d chatarreros + Virtual Joystick
 
 Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
+---------------------------------------------------------------------------------------------------------
+
+Plantilla 2d Panterika
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/4ab248327f3bfbb53d4228ff8cda583d27664f67
 
 ---------------------------------------------------------------------------------------------------------
 
