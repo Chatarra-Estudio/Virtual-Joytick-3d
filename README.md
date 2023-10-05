@@ -11,10 +11,6 @@ https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/4ab248327f3bfbb53d42
 
 ---------------------------------------------------------------------------------------------------------
 
-https://github.com/Chatarra-Estudio/Virtual-Joytick-3d
-
----------------------------------------------------------------------------------------------------------
-
 Revisión controles submarino modelos
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/2dc06e4c9deb1c66f06ce63decfc21308e1bee38 
@@ -80,6 +76,12 @@ Plantilla proyecto editable - Juego game jam 16 /09/ 2023: Call of Ferdi
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/772b82ce9b34c68218be91a7bf15ba3dbd3d5f37
 
 ----------------------------------------------------------------------------------------------------------
+
+Plantila general
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d
+
+---------------------------------------------------------------------------------------------------------
 
 # Truck Town
 
