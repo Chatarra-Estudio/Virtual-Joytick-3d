@@ -7,6 +7,8 @@ Plantilla 2d Panterika
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/4ab248327f3bfbb53d4228ff8cda583d27664f67
 
+- Cambiar escena de inicio por el assset 2d
+
 ---------------------------------------------------------------------------------------------------------
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d
