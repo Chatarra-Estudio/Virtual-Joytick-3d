@@ -6,13 +6,14 @@ var jump_force = -400  # Fuerza de salto
 var gravity = 800  # Gravedad
 var is_on_ground = false  # Bandera para verificar si el personaje está en el suelo
 var velocity = Vector2()  # Vector de velocidad
-
+var input_vector = Vector2()
 func _ready():
 	pass  # Puedes inicializar cosas aquí si es necesario
 
 func _physics_process(delta):
 	# Obtener la entrada del jugador
-	var input_vector = Vector2()
+	input_vector = Vector2(0,0)
+	
 
 	if Input.is_action_pressed("move_right"):
 		input_vector.x += 1

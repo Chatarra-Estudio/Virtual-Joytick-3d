@@ -2,7 +2,7 @@ extends Node
 
 var cara   # caracter node
 
-var malos = 1
+var malos = 3
 var nivel = 0
 var va_IG 
 var va_IV
@@ -16,7 +16,7 @@ var scene_1 = scene1_to_add.instance()
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
-	cara = get_child(0)
+	cara = get_child(1)
 	get_node("caracter2d/tempoGO/hud/Label").set_text("Empezamos")
 #	print(get_child(0).position.y)
 #	print(get_child(0))
@@ -67,11 +67,14 @@ func _process(_delta):
 #			get_node("transicion_mapa/Timer").start(2)
 			get_node("transicion_mapa").show()
 			get_node("transicion_mapa/ParallaxBackground/ParallaxLayer/Sprite").show()
+			get_node("transicion_mapa/ParallaxBackground/ParallaxLayer/ColorRect").show()
+			get_node("transicion_mapa/ParallaxBackground/ParallaxLayer/Sprite").position.y = get_node("transicion_mapa/ParallaxBackground/ParallaxLayer/Sprite").position.y - 100
 #			reinicio()
 			cara.global_position = va_Ipalyer
 			get_node("caracter2d/tempoGO/TimerGO").start(1)
 			get_node("transicion_mapa/Timer").start(2)
 			get_node("caracter2d/tempoGO/hud/Label").set_text("pasa a nivel 2")
+			
 			scene_1.queue_free()
 		
 		elif nivel == 2:
@@ -90,14 +93,16 @@ func _on_Timer_timeout():
 #		get_node("caracter2d/tempoGO").tiempo = va_ITP1
 #		get_node("caracter2d/tempoGO").tiempo 
 		nivel = 1
-		add_child(scene_1)
+#		add_child(scene_1)
+		get_node("transicion_mapa").add_child(scene_1)
 		reinicio()
 		print("empieza    nivel ==1")
 	elif nivel == 2:
 		print("empieza    nivel ==2")
 		reinicio()
 		scene_1 = scene1_to_add.instance()
-		add_child(scene_1)
+		get_node("transicion_mapa").add_child(scene_1)
+#		add_child(scene_1)
 	
 	pass # Replace with function body.
 	
@@ -110,4 +115,11 @@ func reinicio():
 	cara.speed = va_IV 
 #	print(get_node("transicion_mapa"))
 	get_node("transicion_mapa/ParallaxBackground/ParallaxLayer/Sprite").hide()
+	get_node("transicion_mapa/ParallaxBackground/ParallaxLayer/ColorRect").hide()
 	cara.global_position = va_Ipalyer
+
+
+func _on_TextureButton_pressed():
+	print("entra")
+#	cara.input_vector.x -= 1
+	pass # Replace with function body.

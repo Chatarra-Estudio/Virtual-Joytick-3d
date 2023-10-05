@@ -10,7 +10,7 @@ animations = [ {
 "frames": [ ExtResource( 1 ), ExtResource( 3 ) ],
 "loop": true,
 "name": "default",
-"speed": 5.0
+"speed": 3.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
@@ -20,10 +20,10 @@ extents = Vector2( 27.2727, 31.5 )
 script = ExtResource( 2 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-scale = Vector2( 2, 2 )
+show_behind_parent = true
 frames = SubResource( 3 )
-frame = 1
 playing = true
+flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 3.57628e-07, 0.5 )
@@ -34,4 +34,4 @@ shape = SubResource( 2 )
 current = true
 
 [node name="tempoGO" parent="." instance=ExtResource( 4 )]
-position = Vector2( -588, -356 )
+position = Vector2( -510, -309 )
