@@ -9,6 +9,8 @@ Plantilla 2d un boton ==> revisar fondo parallax no se ve , Jam Halloween
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/0b2a925d619fefef03bc76c0e159d9016cdc90d2
 
+https://chatarra-estudio.github.io/landing2023/hueco/so.html
+
 ---------------------------------------------------------------------------------------------------------
 
 Plantilla 2d un boton ==> revisar fondo parallax no se ve 
