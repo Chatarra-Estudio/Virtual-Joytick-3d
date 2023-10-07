@@ -12,6 +12,42 @@ https://monstermash.zone/
 
 Aquí unos modelos chatarreos
 
+Piedra maya
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/2dc06e4c9deb1c66f06ce63decfc21308e1bee38/modelos/maya.blend
+
+Submarino 
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/2dc06e4c9deb1c66f06ce63decfc21308e1bee38/modelos/sub_blen2.blend
+
+Arbol 
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/00175acb1d1af539296e8ef6d70b24701a7864c3/modelos/arbol01_nu.blend
+
+Calavera
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/00175acb1d1af539296e8ef6d70b24701a7864c3/modelos/calavera.blend
+
+Camioneta
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/00175acb1d1af539296e8ef6d70b24701a7864c3/modelos/camion.blend
+
+Circuito carreras
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/00175acb1d1af539296e8ef6d70b24701a7864c3/modelos/circuito0.blend
+
+
+Cactus
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/00175acb1d1af539296e8ef6d70b24701a7864c3/ferdi/asset/coche/circuito/cactus.dae
+
+Elfo en moto "voladora"
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/00175acb1d1af539296e8ef6d70b24701a7864c3/ferdi/asset/coche/circuito/motoelfo.dae
+
+Avión rojo
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/00175acb1d1af539296e8ef6d70b24701a7864c3/ferdi/asset/coche/circuito/avion.dae
 
 ----------------------------------------------------------------------------------------------
 
