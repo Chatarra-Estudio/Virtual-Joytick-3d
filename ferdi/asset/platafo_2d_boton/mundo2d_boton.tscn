@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://asset/platafo_2d_boton/caracSalto2d.tscn" type="PackedScene" id=1]
+[ext_resource path="res://asset/platafo_2d_boton/pantalla1_bot.tscn" type="PackedScene" id=2]
+
+[node name="mundo2d" type="Node"]
+
+[node name="pantalla_bot_0" parent="." instance=ExtResource( 2 )]
+
+[node name="cara2d_salto" parent="." instance=ExtResource( 1 )]

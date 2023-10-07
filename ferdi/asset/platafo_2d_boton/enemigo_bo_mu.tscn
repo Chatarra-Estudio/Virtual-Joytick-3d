@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://asset/platafo_2d_boton/enemigo_bo_mu.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://asset/plataforma2d/pantallas/enemigo2.png" type="Texture" id=3]
+[ext_resource path="res://asset/plataforma2d/pantallas/enemigo1.png" type="Texture" id=4]
+
+[sub_resource type="SpriteFrames" id=9]
+animations = [ {
+"frames": [ ExtResource( 4 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 20.5, 19.5 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 20, 2.5 )
+
+[node name="enemigo-salto-m" type="KinematicBody2D"]
+script = ExtResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 0, 15 )
+scale = Vector2( 1.5, 1.5 )
+frames = SubResource( 9 )
+playing = true
+
+[node name="Sprite" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -3, 19.5 )
+shape = SubResource( 7 )
+
+[node name="iz" type="RayCast2D" parent="."]
+position = Vector2( -26, -8 )
+enabled = true
+
+[node name="de" type="RayCast2D" parent="."]
+position = Vector2( 19, -8 )
+enabled = true
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2( 0, 24 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( -4, -30.5 )
+shape = SubResource( 8 )
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
