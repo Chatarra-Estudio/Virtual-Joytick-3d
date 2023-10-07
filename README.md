@@ -5,6 +5,12 @@ Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar
 
 ---------------------------------------------------------------------------------------------------------
 
+Plantilla 2d un boton ==> revisar fondo parallax no se ve , Jam Halloween
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/0b2a925d619fefef03bc76c0e159d9016cdc90d2
+
+---------------------------------------------------------------------------------------------------------
+
 Plantilla 2d un boton ==> revisar fondo parallax no se ve 
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/4b748b312d65b5a43ef564e1dd599acda7f24552
