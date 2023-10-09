@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://asset/meta/pantallas/enemigo2giro.gd" type="Script" id=1]
+[ext_resource path="res://asset/meta/modelos/calabaza4.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://asset/meta/modelos/Mate_clabaza.material" type="Material" id=3]
+[ext_resource path="res://asset/bala/win.png" type="Texture" id=4]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="enemigo2giro" type="Spatial"]
+transform = Transform( -0.00633555, 0, -0.999979, 0, 1, 0, 0.999979, 0, -0.00633555, 0, 0, 0 )
+script = ExtResource( 1 )
+
+[node name="CSGMesh" type="CSGMesh" parent="."]
+transform = Transform( 0.999999, 0, -0.00200703, 0, 1, 0, 0.00200703, 0, 0.999999, 0, 0, 0 )
+mesh = ExtResource( 2 )
+material = ExtResource( 3 )
+
+[node name="Area" type="Area" parent="CSGMesh"]
+
+[node name="CollisionShape" type="CollisionShape" parent="CSGMesh/Area"]
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="."]
+visible = false
+
+[node name="Particles" type="CPUParticles" parent="."]
+material_override = ExtResource( 3 )
+emitting = false
+mesh = ExtResource( 2 )
+flag_rotate_y = true
+direction = Vector3( 1, 1, -1 )
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 10.0
+initial_velocity_random = 1.0
+angular_velocity = 35.0
+angular_velocity_random = 1.0
+scale_amount = 0.1
+scale_amount_random = 1.0
+
+[node name="win" type="Sprite" parent="."]
+position = Vector2( 449, 98 )
+texture = ExtResource( 4 )
+centered = false
+
+[connection signal="body_entered" from="CSGMesh/Area" to="." method="_on_Area_body_entered"]

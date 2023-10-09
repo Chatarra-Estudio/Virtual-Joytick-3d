@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://asset/meta/modelos/ladrillo_suelo64x64.png" type="Texture" id=1]
 [ext_resource path="res://asset/meta/pantallas/puerta.tscn" type="PackedScene" id=2]
+[ext_resource path="res://asset/meta/pantallas/enemigo2giro.tscn" type="PackedScene" id=4]
 
 [sub_resource type="BoxShape" id=1]
 
@@ -23,5 +24,22 @@ shape = SubResource( 1 )
 [node name="CSGBox" type="CSGBox" parent="sueloIntro/CollisionShape"]
 material_override = SubResource( 3 )
 
+[node name="enemigos" type="Node" parent="."]
+
+[node name="enemigo2giro" parent="enemigos" instance=ExtResource( 4 )]
+transform = Transform( -0.00633555, 0, -0.999979, 0, 1, 0, 0.999979, 0, -0.00633555, 42.006, -6.62748, 27.7066 )
+
+[node name="enemigo2giro2" parent="enemigos" instance=ExtResource( 4 )]
+transform = Transform( -0.00633555, 0, -0.999979, 0, 1, 0, 0.999979, 0, -0.00633555, 42.006, -6.62748, 11.6985 )
+
+[node name="enemigo2giro3" parent="enemigos" instance=ExtResource( 4 )]
+transform = Transform( -0.00633555, 0, -0.999979, 0, 1, 0, 0.999979, 0, -0.00633555, 42.006, -6.62748, -4.3096 )
+
+[node name="enemigo2giro4" parent="enemigos" instance=ExtResource( 4 )]
+transform = Transform( -0.00633555, 0, -0.999979, 0, 1, 0, 0.999979, 0, -0.00633555, 31.6177, -6.62748, -23.3807 )
+
+[node name="enemigo2giro5" parent="enemigos" instance=ExtResource( 4 )]
+transform = Transform( -0.00633555, 0, -0.999979, 0, 1, 0, 0.999979, 0, -0.00633555, 31.6177, -6.62748, 47.7262 )
+
 [node name="puerta" parent="." instance=ExtResource( 2 )]
-transform = Transform( -0.00905816, 0, -0.999959, 0, 1, 0, 0.999959, 0, -0.00905816, 0.468494, -7.15089, -35.0739 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 61.1308, 217.263 )

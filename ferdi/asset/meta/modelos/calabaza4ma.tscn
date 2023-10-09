@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://asset/meta/modelos/calabaza4.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://asset/meta/modelos/Mate_clabaza.material" type="Material" id=2]
+
+[node name="CSGMesh2" type="CSGMesh"]
+mesh = ExtResource( 1 )
+material = ExtResource( 2 )

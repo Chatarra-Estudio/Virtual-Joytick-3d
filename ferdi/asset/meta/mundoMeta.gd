@@ -14,6 +14,7 @@ func _ready():
 	if nivel == 0:
 		print("la mierda de señal del área: ",get_node("introSuelo/puerta/puertaArea").connect("body_entered", self, "_on_body_entered"))
 		JPI = get_node("CaracBase").transform
+		get_node("CaracBase/tempoGO/hud/Label").set_text("Mata a las calabazas")
 	pass # Replace with function body.
 	JPI = get_node("CaracBase").transform
 

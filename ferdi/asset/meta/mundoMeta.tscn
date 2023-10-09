@@ -1,16 +1,24 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://asset/meta/mundoMeta.gd" type="Script" id=1]
 [ext_resource path="res://asset/bala/blanco.tscn" type="PackedScene" id=2]
 [ext_resource path="res://asset/meta/carac_base.tscn" type="PackedScene" id=3]
 [ext_resource path="res://asset/meta/pantallas/intro_suelo.tscn" type="PackedScene" id=4]
+[ext_resource path="res://asset/meta/modelos/2Dcaramelo.tscn" type="PackedScene" id=5]
+[ext_resource path="res://asset/meta/modelos/2d_anima.tscn" type="PackedScene" id=6]
 
 [node name="mundoM" type="Spatial"]
 script = ExtResource( 1 )
 
 [node name="blanco" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.6984 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.0387, 0, -15.6984 )
 
 [node name="CaracBase" parent="." instance=ExtResource( 3 )]
 
 [node name="introSuelo" parent="." instance=ExtResource( 4 )]
+
+[node name="2D" parent="." instance=ExtResource( 5 )]
+transform = Transform( 10, 0, 6.51683e-07, 0, 10, 0, -6.51683e-06, 0, 1, 83.7412, 1.65795, -6.48951 )
+
+[node name="2d_anima" parent="." instance=ExtResource( 6 )]
+transform = Transform( -0.439845, 0, -0.898074, 0, 1, 0, 0.898074, 0, -0.439845, 83.2116, 0, 24.77 )
