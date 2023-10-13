@@ -2,6 +2,17 @@
 ---------------------------------------------------------------------------------------------------------
 
 Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
+---------------------------------------------------------------------------------------------------------
+
+Plantilla 3d + Virtual Joystick
+
+Crear una experiencia espeluznante en solo 6 horas!
+
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/fc15c3e439cea64960818ce0e7b30e63cc18034a
+
+https://itch.io/jam/6-hour-jam-spooky-jam-2023
+
+https://josegar.itch.io/calabazate
 
 ---------------------------------------------------------------------------------------------------------
 
