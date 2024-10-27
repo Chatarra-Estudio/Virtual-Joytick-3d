@@ -1,6 +1,8 @@
 # Modelos 3d chatarreros
 
-A simple virtual joystick for touchscreens, with useful options.
+Useful options.
+
+----------------------------------------------------------------------------------------------
 
 ### Production:
 
@@ -81,6 +83,8 @@ https://raw.githubusercontent.com/Chatarra-Estudio/Virtual-Joytick-3d/c20ab2b2c9
 Aquí unos controles chatarreros de kinemático 3d con suelo plano para exportar en html.
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d
+
+---------------------------------------------------------------------------------------------
 
 Marco Fazio Random 
 
